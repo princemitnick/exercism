@@ -4,21 +4,6 @@ class Matrix {
 
     String matrixAsString;
 
-    public static void main(String... args){
-        String str = "1";
-        Matrix matrix = new Matrix(str);
-
-        int [] getRow = matrix.getRow(1);
-        for (int i = 0; i < getRow.length; i++){
-            System.out.println(getRow[i]);
-        }
-
-        //int [] getColum = matrix.getColumn(3);
-
-        //for (int i = 0; i < getColum.length; i++){
-         //   System.out.println(getColum[i]);
-        //}
-    }
 
     Matrix(String matrixAsString) {
         //throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
